@@ -1,2 +1,2 @@
 # hello-world
-Idea and things
+Ideas and things
