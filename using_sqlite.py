@@ -1,6 +1,8 @@
 import sqlite3
 
-conn = sqlite3.connect('employees.db')
+#conn = sqlite3.connect('employees.db')
+conn = sqlite3.connect(':memory:')
+conn.row_factory = sqlite3.Row
 cur = conn.cursor()
 
 cur.execute("""
@@ -23,11 +25,14 @@ cur.executemany("""
 
 conn.commit()
 
-#cur.execute("select * from employees")
-#print(cur.fetchall())
+cur.execute("select * from employees")
+print(cur.fetchall())
+
+#for row in cur.execute("SELECT * FROM employees WHERE years >= 1"):
+#    print(row[1], "has worked for", row[4], "years")
 
 for row in cur.execute("SELECT * FROM employees WHERE years >= 1"):
-    print(row[1], "has worked for", row[4], "years")
+    print(row["first_name"], "has worked for", row["years"], "years")
 
 cur.close()
 conn.close()
