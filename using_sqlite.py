@@ -27,7 +27,7 @@ conn.commit()
 #print(cur.fetchall())
 
 for row in cur.execute("SELECT * FROM employees WHERE years >= 1"):
-    print(row["first_name"], "has worked for", row["years_with_company"], "years")
+    print(row[1], "has worked for", row[4], "years")
 
 cur.close()
 conn.close()
