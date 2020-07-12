@@ -23,8 +23,11 @@ cur.executemany("""
 
 conn.commit()
 
-cur.execute("select * from employees")
-print(cur.fetchall())
+#cur.execute("select * from employees")
+#print(cur.fetchall())
+
+for row in cur.execute("SELECT * FROM employees WHERE years >= 1"):
+    print(row["first_name"], "has worked for", row["years_with_company"], "years")
 
 cur.close()
 conn.close()
