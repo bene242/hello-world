@@ -1,0 +1,24 @@
+2020-10-06 07:10:03,828 [DEBUG] - 2relais-with-logging.py : temp: 23.27 moisture: 989
+2020-10-06 07:10:05,833 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-07 07:10:03,820 [DEBUG] - 2relais-with-logging.py : temp: 23.27 moisture: 1004
+2020-10-07 07:10:05,825 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-08 07:10:03,363 [DEBUG] - 2relais-with-logging.py : temp: 23.06 moisture: 886
+2020-10-08 07:10:05,368 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-09 07:10:03,403 [DEBUG] - 2relais-with-logging.py : temp: 23.27 moisture: 1005
+2020-10-09 07:10:05,408 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-10 07:10:03,367 [DEBUG] - 2relais-with-logging.py : temp: 24.23 moisture: 999
+2020-10-10 07:10:07,374 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-11 07:10:03,867 [DEBUG] - 2relais-with-logging.py : temp: 24.44 moisture: 993
+2020-10-11 07:10:07,875 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-12 07:10:03,124 [DEBUG] - 2relais-with-logging.py : temp: 24.98 moisture: 989
+2020-10-12 07:10:07,131 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-13 07:10:03,110 [DEBUG] - 2relais-with-logging.py : temp: 25.29 moisture: 966
+2020-10-13 07:10:07,117 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-14 07:10:03,094 [DEBUG] - 2relais-with-logging.py : temp: 25.51 moisture: 1003
+2020-10-14 07:10:07,101 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-15 07:10:02,971 [DEBUG] - 2relais-with-logging.py : temp: 26.04 moisture: 1010
+2020-10-15 07:10:06,976 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-16 07:10:03,854 [DEBUG] - 2relais-with-logging.py : temp: 25.19 moisture: 946
+2020-10-16 07:10:07,860 [DEBUG] - 2relais-with-logging.py : Watering done
+2020-10-17 07:10:03,589 [DEBUG] - 2relais-with-logging.py : temp: 23.7 moisture: 969
+2020-10-17 07:10:07,596 [DEBUG] - 2relais-with-logging.py : Watering done
